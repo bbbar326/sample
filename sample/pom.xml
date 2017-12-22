@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>science.bbbar326</groupId>
-	<artifactId>twitter-tool</artifactId>
+	<artifactId>sample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -31,7 +31,7 @@
 	</profiles>
 
 	<build>
-<!-- 		<outputDirectory>WebContent/WEB-INF/classes</outputDirectory> -->
+		<!-- <outputDirectory>WebContent/WEB-INF/classes</outputDirectory> -->
 
 		<resources>
 			<resource>
@@ -101,6 +101,11 @@
 			<groupId>org.twitter4j</groupId>
 			<artifactId>twitter4j-core</artifactId>
 			<version>4.0.6</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.10.2</version>
 		</dependency>
 
 		<!-- テスト用 -->
