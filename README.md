@@ -1,2 +1,2 @@
-# twitter-tool
-TwitterAPI実行用サンプルソース等
+# sample
+サンプルソース等
