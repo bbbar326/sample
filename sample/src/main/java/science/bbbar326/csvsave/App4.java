@@ -132,7 +132,7 @@ public class App4 {
 								// -----------------------------------------------
 								//							System.out.println(sb);
 								p.write(sb.toString());
-								p.write("\r\n");
+								p.write("\n");
 							}
 						}
 					}
